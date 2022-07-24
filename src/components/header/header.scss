@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+.header{
+    .title{
+        color: aliceblue;
+        font-family: 'Dancing Script';
+        font-size: 45px;
+
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 42, 255);
+    height: 10vh;
+}
