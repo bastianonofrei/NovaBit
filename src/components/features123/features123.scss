@@ -1,0 +1,19 @@
+.features{
+    padding-top: 4vh;
+    padding-left: 1vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: azure;
+    align-items: center;
+   
+    .buc{
+       text-align: center;
+       
+       width: 30vw;
+       height: 20vh;
+       margin-right: 2vw;
+       background-color: rgb(16, 25, 56);
+    }
+}
