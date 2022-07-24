@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header';
 import Intro from './components/intro/Intro';
+import Footer from './components/footer/footer';
 import React from 'react';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <React.Fragment>
       <Header/>
       <Intro/>
+      <Footer/>
     </React.Fragment>
 
   );
