@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+
 .intro{
     h4{
-        color: rgb(237, 119, 15);
+        color: aliceblue;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
     }
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(224, 224, 224);
-    margin-left: 20vw;
-    margin-top: 1vh;
-    width:60vw ;
+    background-image: url("https://cdn.discordapp.com/attachments/853677751261200464/1000690314266280016/gritte-gEQlN_TDwe4-unsplash.jpg?width=731&height=411");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    width:100vw;
+    height: 80vh;
+
+    
 }
