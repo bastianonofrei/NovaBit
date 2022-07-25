@@ -9,10 +9,11 @@ export default function Features123(){
             <div className="buc2"><h2>High-Fidelity</h2></div>
             <div className="buc2"><h2>High-Power</h2></div>
             <div className="buc2"><h2>High-Efficiency</h2></div>
-        </div><div className="features">
+        </div>
+        <div className="features">
                 <div className="buc"><img src={require('./loud-speaker.png')} alt="High-Fidelity" /></div>
                 <div className="buc"><img src={require('./fuse-box.png')} alt="High-Power" /></div>
                 <div className="buc"><img src={require('./renewable-energy.png')} alt="Efficient" /></div>
-            </div></>
+        </div></>
     )
 }

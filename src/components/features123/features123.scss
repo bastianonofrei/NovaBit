@@ -7,15 +7,20 @@
     justify-content: center;
     color: azure;
     align-items: center;
+    
    
     .buc{
        text-align: center;
-       box-shadow: 1px 2px 10px 10px #665050;
+       box-shadow: 1px 2px 5px 5px #7a7a7a;
        width: 30vw;
        height: 42vh;
        margin-right: 2vw;
        background-color: rgb(255, 255, 255);
-       
+    //    uite aici trebuie sa faci display flex si sa centrezi. tu centrezi doar in divul care contine celalalte 3 divuri.
+    //  in divul asta trebuie sa centrezi imaginea ! 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 }
 
@@ -28,6 +33,7 @@
     justify-content: center;
     color: azure;
     align-items: center;
+    
    
     .buc2{
        text-align: center;

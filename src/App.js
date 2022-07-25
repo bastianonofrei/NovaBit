@@ -8,12 +8,14 @@ import Features123 from './components/features123/features123';
 
 function App() {
   return (
-    <React.Fragment>
+    <div className='mainContainer'>
       <Header/>
       <Intro/>
       <Features123/>
       <Footer/>
-    </React.Fragment>
+    </div>
+     
+  
 
   );
 }
