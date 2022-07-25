@@ -3,10 +3,12 @@
 
 .intro{
     h4{
+        overflow: hidden;
         color: aliceblue;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 25px;
     }
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
