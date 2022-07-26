@@ -6,10 +6,26 @@
     flex-direction: row;
     justify-content: center;
     color: azure;
+
+    align-items: center;
+
+
     
    
     .feature_name{
        text-align: center;
+
+       box-shadow: 1px 2px 5px 5px #7a7a7a;
+       width: 30vw;
+       height: 42vh;
+       margin-right: 2vw;
+       background-color: rgb(255, 255, 255);
+    //    uite aici trebuie sa faci display flex si sa centrezi. tu centrezi doar in divul care contine celalalte 3 divuri.
+    //  in divul asta trebuie sa centrezi imaginea ! 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
        
        align-items: center;
        justify-content: center;
@@ -20,12 +36,18 @@
        
        background-image: linear-gradient(to left top, blue, rgb(177, 105, 105));
        border-radius: 4px;
-       
+
     }
 }
 
 .features_picture{
     display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    color: azure;
+    align-items: center;
+
     
    
     .pictures{
